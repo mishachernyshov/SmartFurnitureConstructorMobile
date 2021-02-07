@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartfurnitureconstructor">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activities.catalog.BaseCatalog"></activity>
+        <activity android:name=".activities.base.ActivityWithoutTopMenu" />
+        <activity android:name=".activities.base.ActivityWithTopMenu" />
+        <activity android:name=".activities.functional.BoughtInstructions" />
+        <activity android:name=".activities.base.GeneralApplicationActivity" />
+        <activity
+            android:name=".activities.catalog.SingleConstruction"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".activities.catalog.ConstructionCatalog" />
+        <activity
+            android:name=".activities.functional.Cart"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".activities.functional.FurnitureConstructor" />
+        <activity
+            android:name=".activities.functional.QR_Scanner"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name=".activities.catalog.SingleComponent"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".SearchableActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity android:name=".activities.catalog.ComponentCatalog" />
+
+        <activity android:name=".activities.authentication.RegistrationActivity" />
+        <activity android:name=".activities.authentication.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

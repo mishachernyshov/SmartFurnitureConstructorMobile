@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">SmartFurnitureConstructor</string>
+    <string name="title_activity_bottom_navigation">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cart_name">Name</string>
+    <string name="cart_count">Count</string>
+    <string name="cart_unit_of_goods_price">Price per unit of goods</string>
+    <string name="cart_sum">Sum</string>
+    <string name="cart_delete">Delete</string>
+    <string name="cart_total">Total sum:</string>
+    <string name="cart_empty">Empty</string>
+    <string name="cart_confirm">Confirm</string>
+    <string name="cart_pay">Pay</string>
+    <string name="cart_currency">$</string>
+    <string name="cart_confirm_changes">The changes were successfully applied</string>
+    <string name="cart_confirm_title">Changes confirmation</string>
+
+    <string name="catalog_filtration">Filtration</string>
+    <string name="catalog_search_field_text">Search by name</string>
+    <string name="catalog_sorting">Sorting</string>
+    <string name="catalog_sorting_order_by_name">By name</string>
+    <string name="catalog_sorting_ascending_rating_order">Ascending rating</string>
+    <string name="catalog_sorting_descending_rating_order">Descending rating</string>
+    <string name="catalog_category">Category:</string>
+    <string name="catalog_manufacturer">Manufacturer:</string>
+    <string name="catalog_rating">Rating</string>
+    <string name="catalog_min_rating_value">From</string>
+    <string name="catalog_max_rating_value">To</string>
+    <string name="catalog_filter_category">Category</string>
+    <string name="catalog_filter_manufacturer">Manufacturer</string>
+    <string name="catalog_type">Type:</string>
+    <string name="catalog_filter_type">Type</string>
+
+    <string name="matching_new_constructions_title">
+        New constructions assembling from old components
+    </string>
+    <string name="matching_new_constructions_available_constructions">
+        Select the constructions to be decomposed.
+        Their components will be added to the list of components below:
+    </string>
+    <string name="matching_new_constructions_available_constructions_button">
+        Available constructions
+    </string>
+    <string name="matching_new_constructions_available_components">
+        Choose the individual components that you have:
+    </string>
+    <string name="matching_new_constructions_available_components_button">
+        Available components
+    </string>
+    <string name="matching_new_constructions_chosen_components_description_part1">
+        Components to be searched.
+        Click on the names of components that are not suitable for further use,
+        to remove them from this list
+    </string>
+    <string name="matching_new_constructions_clear">
+        Clear
+    </string>
+    <string name="matching_new_constructions_search">
+        Search
+    </string>
+    <string name="matching_new_constructions_appropriate_constructions">
+        Constructions that can be composed of the following components:
+    </string>
+    <string name="matching_new_constructions_almost_appropriate_constructions">
+        Constructions for which several components are missing:
+    </string>
+    <string name="matching_new_constructions_nothing_found">
+        Unfortunately, was found
+    </string>
+
+    <string name="authentication_authorization">Authorization</string>
+    <string name="authentication_registration">Registration</string>
+    <string name="authentication_login">Login</string>
+    <string name="authentication_password">Password</string>
+    <string name="authentication_login_log_in_placeholder">Enter your login</string>
+    <string name="authentication_password_log_in_placeholder">Enter your password</string>
+    <string name="authentication_log_in">Log in</string>
+    <string name="authentication_register">Sign up</string>
+    <string name="authentication_congrats">Hi there! Nice to see you again</string>
+    <string name="authentication_have_no_account_yet">Don\'t have an account?</string>
+    <string name="authentication_login_register_placeholder">Enter the login</string>
+    <string name="authentication_password_register_placeholder">Enter the password</string>
+    <string name="authentication_re_password">Password confirmation</string>
+    <string name="authentication_re_password_placeholder">Re-enter the password</string>
+    <string name="authentication_successful_register_message">
+        The user has successfully registered in the system.
+        You now have the opportunity to log in using the personal data you have entered
+    </string>
+    <string name="authentication_successful_register_title">Successful registration</string>
+    <string name="authentication_successful_register_confirmation">Ok</string>
+    <string name="authentication_error_message">
+        The user with these credentials doesn\'t exist
+    </string>
+    <string name="authentication_password_requirements">
+        Password requirements: no shorter than 8 characters, only letters of the English
+        alphabet are allowed. A strong password contains uppercase and lowercase letters,
+        numbers, and special characters.
+    </string>
+    <string name="authentication_agreement">
+        I agree to the Terms of Services and Privacy Policy
+    </string>
+    <string name="authentication_already_have_account">
+        Already have an account?
+    </string>
+    <string name="authentication_incorrect_data">The data you inputted is incorrect</string>
+    <string name="authentication_log_out">Log out</string>
+
+    <string name="catalog_item_rating">Rating</string>
+    <string name="catalog_item_related_constructions">Related constructions</string>
+    <string name="catalog_item_related_components">Related components</string>
+    <string name="catalog_item_description">Description</string>
+    <string name="catalog_item_characteristics">Characteristics</string>
+    <string name="catalog_item_category">Category: </string>
+    <string name="catalog_item_manufacturer">Manufacturer: </string>
+    <string name="catalog_item_type">Type: </string>
+    <string name="catalog_item_weight">Weight, lb: </string>
+    <string name="catalog_item_reports">Reports</string>
+    <string name="catalog_item_write_reports">Write a report</string>
+    <string name="catalog_item_send">Send</string>
+    <string name="catalog_item_buy_schema">Buy the instruction</string>
+    <string name="catalog_item_download_schema">Download the schema</string>
+    <string name="catalog_item_shops">Shops</string>
+    <string name="catalog_item_price">Price</string>
+    <string name="catalog_item_good_in_shop">Good in shop</string>
+    <string name="catalog_item_homepage">Homepage</string>
+    <string name="catalog_item_ok">Ok</string>
+    <string name="catalog_item_schema_getting">Schema getting</string>
+    <string name="catalog_item_schema_getting_message">
+        The scheme of this construction was successfully added to the cart
+    </string>
+
+    <string name="menu_change_language">Change language</string>
+    <string name="menu_catalog">Catalog</string>
+    <string name="menu_component_catalog">Component catalog</string>
+    <string name="menu_construction_catalog">Construction catalog</string>
+    <string name="menu_cart">Cart</string>
+    <string name="menu_furniture_constructor">Furniture constructor</string>
+    <string name="menu_assembling_instructions">Assembling instructions</string>
+
+    <string name="make_up_the_furniture">Assemble</string>
+    <string name="make_up_the_furniture_title">Construction assembling</string>
+
+    <string name="scanner_last_scanned_value">Last scanned value:</string>
+    <string name="scanner_construction_to_scan">Construction to scan:</string>
+
+    <string name="buy_instruction_alert">
+        The instruction has been added to the cart, where you can pay for it
+    </string>
+
+    <string name="confirm">Confirm</string>
+
+</resources>

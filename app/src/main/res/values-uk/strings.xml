@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">SmartFurnitureConstructor</string>
+    <string name="title_activity_bottom_navigation">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cart_name">Назва</string>
+    <string name="cart_count">Кількість</string>
+    <string name="cart_unit_of_goods_price">Ціна за одиницю товару</string>
+    <string name="cart_sum">Сума</string>
+    <string name="cart_delete">Видалити</string>
+    <string name="cart_total">Загальна сума:</string>
+    <string name="cart_empty">Очистити</string>
+    <string name="cart_confirm">Підтвердити</string>
+    <string name="cart_pay">Оплатити</string>
+    <string name="cart_currency">грн</string>
+    <string name="cart_confirm_changes">Внесені зміни були успішно застосовані</string>
+    <string name="cart_confirm_title">Підтвердження внесених змін</string>
+
+    <string name="catalog_filtration">Фільтрація</string>
+    <string name="catalog_search_field_text">Пошук за назвою</string>
+    <string name="catalog_sorting">Сортування</string>
+    <string name="catalog_sorting_order_by_name">За назвою</string>
+    <string name="catalog_sorting_ascending_rating_order">За зростанням рейтингу</string>
+    <string name="catalog_sorting_descending_rating_order">За спаданням рейтингу</string>
+    <string name="catalog_category">Категорія:</string>
+    <string name="catalog_manufacturer">Виробник:</string>
+    <string name="catalog_rating">Рейтинг</string>
+    <string name="catalog_min_rating_value">Від</string>
+    <string name="catalog_max_rating_value">До</string>
+    <string name="catalog_filter_category">Категорія</string>
+    <string name="catalog_filter_manufacturer">Виробник</string>
+    <string name="catalog_type">Тип:</string>
+    <string name="catalog_filter_type">Тип</string>
+
+    <string name="matching_new_constructions_title">
+        Складання нових конструкцій з компонентів старих
+    </string>
+    <string name="matching_new_constructions_available_constructions">
+        Оберіть конструкції, що підлягають декомпозиції.
+        Їхні складові будуть додані до списку компонентів нижче:
+    </string>
+    <string name="matching_new_constructions_available_constructions_button">
+        Наявні конструкції
+    </string>
+    <string name="matching_new_constructions_available_components">
+        Оберіть окремі складові, які Ви маєте:
+    </string>
+    <string name="matching_new_constructions_available_components_button">
+        Наявні комплектуючі
+    </string>
+    <string name="matching_new_constructions_chosen_components_description_part1">
+        Компоненти, по сукупності яких здійснюватиметься пошук.
+        Натисніть на назви компонентів, що не придатні до подальшої експлуатації,
+        аби видалити їх із даного переліку
+    </string>
+    <string name="matching_new_constructions_clear">
+        Очистити
+    </string>
+    <string name="matching_new_constructions_search">
+        Знайти
+    </string>
+    <string name="matching_new_constructions_appropriate_constructions">
+        Конструкції, що можна скласти із вказаних компонентів:
+    </string>
+    <string name="matching_new_constructions_almost_appropriate_constructions">
+        Конструкції, для яких не вистачає кількох складових
+    </string>
+    <string name="matching_new_constructions_nothing_found">
+        На жаль, нічого не було знайдено
+    </string>
+
+    <string name="authentication_authorization">Авторизація</string>
+    <string name="authentication_registration">Реєстрація</string>
+    <string name="authentication_login">Логін</string>
+    <string name="authentication_password">Пароль</string>
+    <string name="authentication_login_log_in_placeholder">Введіть Ваше ім\'я користувача</string>
+    <string name="authentication_password_log_in_placeholder">Введіть Ваш пароль</string>
+    <string name="authentication_log_in">Увійти</string>
+    <string name="authentication_register">Зареєструватися</string>
+    <string name="authentication_congrats">Привіт! Раді бачити Вас знову</string>
+    <string name="authentication_have_no_account_yet">Досі немає акаунту?</string>
+    <string name="authentication_login_register_placeholder">Введіть ім\'я користувача</string>
+    <string name="authentication_password_register_placeholder">Введіть пароль</string>
+    <string name="authentication_re_password">Підтвердження паролю</string>
+    <string name="authentication_re_password_placeholder">Повторно введіть пароль</string>
+    <string name="authentication_successful_register_message">
+        Користувач був успішно зареєстрований у системі.
+        Наразі Ви маєте можливість авторизуватися, використовуючи уведені Вами персональні дані
+    </string>
+    <string name="authentication_successful_register_title">Успішна реєстрація</string>
+    <string name="authentication_successful_register_confirmation">Гаразд</string>
+    <string name="authentication_error_message">Користувача із вказаними даними не існує</string>
+    <string name="authentication_password_requirements">
+        Вимоги до паролю: не коротший, ніж 8 символів, допускаються літери лише англійського
+        алфівіту. Надійний пароль містить літери верхнього і нижнього регістрів,
+        цифри та спеціальні символи.
+    </string>
+    <string name="authentication_agreement">
+        Я погоджуюсь з Умовами надання послуг та Політикою конфіденційності
+    </string>
+    <string name="authentication_already_have_account">
+        Вже маєте акаунт?
+    </string>
+    <string name="authentication_incorrect_data">Введено невалідні дані</string>
+    <string name="authentication_log_out">Вийти</string>
+
+    <string name="catalog_item_rating">Рейтинг</string>
+    <string name="catalog_item_related_constructions">Пов\'язані конструкції</string>
+    <string name="catalog_item_related_components">Пов\'язані комплектуючі</string>
+    <string name="catalog_item_description">Опис</string>
+    <string name="catalog_item_characteristics">Характеристики</string>
+    <string name="catalog_item_category">Категорія: </string>
+    <string name="catalog_item_manufacturer">Виробник: </string>
+    <string name="catalog_item_type">Тип: </string>
+    <string name="catalog_item_weight">Вага, г: </string>
+    <string name="catalog_item_reports">Відгуки</string>
+    <string name="catalog_item_write_reports">Написати відгук:</string>
+    <string name="catalog_item_send">Надіслати</string>
+    <string name="catalog_item_buy_schema">Придбати інструкцію</string>
+    <string name="catalog_item_download_schema">Завантажити схему</string>
+    <string name="catalog_item_shops">Магазини</string>
+    <string name="catalog_item_price">Ціна</string>
+    <string name="catalog_item_good_in_shop">Товар у магазині</string>
+    <string name="catalog_item_homepage">Домашня сторінка</string>
+    <string name="catalog_item_ok">Гаразд</string>
+    <string name="catalog_item_schema_getting">Отримання схеми</string>
+    <string name="catalog_item_schema_getting_message">
+        Схема даної конструкції була успішно додана до кошику
+    </string>
+
+    <string name="menu_change_language">Змінити мову</string>
+    <string name="menu_catalog">Каталог</string>
+    <string name="menu_component_catalog">Каталог комплектуючих</string>
+    <string name="menu_construction_catalog">Каталог конструкцій</string>
+    <string name="menu_cart">Кошик</string>
+    <string name="menu_furniture_constructor">Конструктор меблів</string>
+    <string name="menu_assembling_instructions">Інструкції складання меблів</string>
+
+    <string name="make_up_the_furniture">Скласти</string>
+    <string name="make_up_the_furniture_title">Складання конструкції</string>
+
+    <string name="scanner_last_scanned_value">Останнє відскановане значення:</string>
+    <string name="scanner_construction_to_scan">Слід відсканувати:</string>
+
+    <string name="buy_instruction_alert">
+        Інструкцію було додано до кошика, де Ви можете її оплатити
+    </string>
+    <string name="confirm">Підтвердити</string>
+
+
+</resources>
